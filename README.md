@@ -20,7 +20,7 @@ Let’s solve this example!
 ====+===+===+===+===+===+
 ```
 
-We can also mark squares with an **0** which indicates that no pixels can be placed there. With the information we have now we can play several 0s in the first and last columns. We know there are no more than two pixels in each column. They are finished:
+We can also mark squares with an `**0**` which indicates that no pixels can be placed there. With the information we have now we can play several 0s in the first and last columns. We know there are no more than two pixels in each column. They are finished:
 
 ```
     ║ 2 | 4 | 4 | 4 | 2 ║
@@ -33,7 +33,7 @@ We can also mark squares with an **0** which indicates that no pixels can be pla
 ====+===+===+===+===+===+
 ```
 
-Now with this information we can solve several more rows. The first row has two clues. This means that the pixels must be separated by at least one location. The only way they fit now is by placing a **1**, a **0**, and an **1**:
+Now with this information we can solve several more rows. The first row has two clues. This means that the pixels must be separated by at least one location. The only way they fit now is by placing a `**1**`, a `**0**`, and an `**1**`:
 
 ```
     ║ 2 | 4 | 4 | 4 | 2 ║
@@ -93,7 +93,7 @@ The solution to this nonogram can be written as follows:
 ... )
 ```
 
-Write a function **is_nonogram_resolved** that takes two arguments **specifications** and **solution** which respectively corresponds to the specifications of a nonogram and a proposed solution, and returns **True** if the suggested solution successfully matches the nonogram's specifications, **False** otherwise.
+Write a function `**is_nonogram_resolved**` that takes two arguments `**specifications**` and `**solution**` which respectively corresponds to the specifications of a nonogram and a proposed solution, and returns `**True**` if the suggested solution successfully matches the nonogram's specifications, `**False**` otherwise.
 
 For example:
 
