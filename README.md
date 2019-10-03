@@ -140,3 +140,10 @@ Make the element below into a link that goes to "https://www.w3schools.com".
 >>> is_nonogram_resolved(specifications, solution)
 True
 ```
+"""""""""""""""""""""""""
+How to use & how to run?
+Open Chrome, Linux, Firefox, etc.
+Enter the link: http://gitlab.intek.edu.vn/nonogram-solution-checker/dphuong
+=> Open Terminal, git clone the link.
+Open your cd, enter the command: python 3 is_nonogram_resolved.py 
+
